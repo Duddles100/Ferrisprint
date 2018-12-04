@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet"  type="text/css" href="PrintProjectCSS.css">
+<link rel="stylesheet"  type="text/css" href="pricingstyles.css">
+<title>Team Print</title>
+	</head>
+	<nav class="heading">
+	<a id="headtag" href="pressanddigital.html">Press</a><a href="binding.html">Binding</a><a href="submitartwork.html">Upload Art</a>
+		<a href="contactpage.html">Contact</a><a href="Pricing.html">Quick Prices</a>
+	</nav>
+	<body>
+		<div class="miss">
+		  <blockquote>
+		    <blockquote>
+		      <blockquote>
+		        <blockquote>
+		          <blockquote>
+		            <blockquote>
+		              <h1 id="state"> Mission Statement</h1>
+	                </blockquote>
+		          </blockquote>
+		        </blockquote>
+		      </blockquote>
+		    </blockquote>
+		  </blockquote>
+		  <p>We as an organization believe that Qualitiy is the most important part of print and we strive to uphold the best quailtiy we can in our products.</p>
+		</div>
+	<div id="slideshow">
+	
+				<img class="mySlides" src="Photos/20181010_113127.jpg" alt="konica">
+				<img class="mySlides" src="Photos/20181010_113145.jpg" alt="t-shirt press">
+				<img class="mySlides" src="Photos/20181010_113156.jpg" alt="bindry">
+				<img class="mySlides" src="Photos/20181010_113509.jpg" alt="pantonefan">
+			<script>
+				//Define varible
+				var slides = 0;
+					carousel();
+
+				function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				}
+				slides++;
+				if (slides > x.length) {slides = 1}    
+				x[slides-1].style.display = "block";  
+				setTimeout(carousel, 5000); // Change image every 5 seconds
+				}
+			</script>
+		</div>
+	</body>
+	<footer> Ferris State University 2018 &#169</footer>
+ 
+</html>
+	
