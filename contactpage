@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet"  type="text/css" href="PrintProjectCSS.css">
+<title>contact me page</title>
+
+</head>
+	<nav class="heading">
+		<a id="headtag" href="Index.html"> Home</a><a href="pressanddigital.html">Press</a><a href="binding.html">Binding</a><a href="submitartwork.html">Upload Art</a>
+		<a href="contactpage.html">Contact</a><a href="Pricing.html">Quick Prices</a>
+	</nav>
+<body>
+<h1 style="color:white;background-color:Crimson"> Contact us!</h1>
+<label for="fName">First Name:</label>
+		<label><input type="text" name="fName" id="fName" size="30"></label><br><br>
+    <label> Last Name:<input type="text" name="lName" id="lName" size="30"></label><br><br>
+    <label> Number:<input type="text" name="number" id="number" size="30"></label><br><br>
+    <label>E-mail:<input type="email" name="email" id="email" size="60"></label><br><br>
+
+
+
+<h3>Questions:</h3>
+			<textarea name="comments" id="comments" rows="4" placeholder="add comments"></textarea><br><br>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button><br><br><br>
+
+</body>
+<footer> Ferris State University 2018 &#169</footer>
+</html>
