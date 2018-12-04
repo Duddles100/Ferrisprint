@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet"  type="text/css" href="PrintProjectCSS.css"/>
+<title>binding</title>
+
+</head>
+<nav class="heading">
+		<a id="headtag" href="Index.html"> Home</a><a href="pressanddigital.html">Press</a><a href="binding.html">Binding</a><a href="submitartwork.html">Upload Art</a>
+		<a href="contactpage.html">Contact</a><a href="Pricing.html">Quick Prices</a>
+</nav>
+
+<body>
+<h4 style="color:white;background-color:Crimson; font-size: 18px">Binding type prices:</h4><br>
+<select name="binding" id="binding options" size="1"> 
+			<option>select binding type</option>
+				<option value="Binding">Perfect bound-$14.99</option>
+				<option>Hot Glue bind-$4.99</option>
+				<option>Wire bind-$8.99</option>
+				
+			
+			
+</select><br><br><br>
+	<h1>What is bindery</h1>
+	<div id="slideshow">
+
+				<img class="mySlides" src="Photos/20181010_113354.jpg" alt="holepunch">
+				<img class="mySlides" src="Photos/20181010_113230.jpg" alt="Stitcher">
+			<script>
+				//Define varible
+				var slides = 0;
+					carousel();
+
+				function carousel() {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				}
+				slides++;
+				if (slides > x.length) {slides = 1}    
+				x[slides-1].style.display = "block";  
+				setTimeout(carousel, 5000); // Change image every 5 seconds
+				}
+			</script>
+</div>
+<p>Bindery refers to a studio, workshop or factory where sheets of (usually) paper are fastened together to make books, but also where gold and other decorative elements are added to the exterior of books, where boxes or slipcases for books are made and where the restoration of books is carried out.</p>
+</body>
+
+<footer> Ferris State University 2018 &#169</footer>		
+
+</html>
