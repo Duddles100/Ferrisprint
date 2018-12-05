@@ -1,0 +1,58 @@
+@charset "utf-8";
+body{
+	margin:30px;
+}
+.mySlides {
+	margin-left: 400px;
+	display:block;
+	width:889px;
+	height:400px;}
+
+a{padding:18px;
+  color:white;
+  text-decoration:none;}
+
+
+h2{
+	font-size: 10;}
+
+nav{text-align:center;
+	font-weight:none;
+	font-size:25px;
+	background-color:crimson;}
+.miss{
+	margin-left:425px;
+	text-align: center;
+	text-size:25px;
+}
+.state{
+	margin-left:425px;
+	text-align: center;
+	text-size:18px;
+}
+.bind{
+	text-size:50px;
+}
+
+aside{
+	float:left;
+	display:block;
+	margin-right: 750px;}
+
+.disclaim{
+	font-style:italic;
+	
+}
+.email{
+	color:red;
+}
+.shadow {
+    text-shadow: 2px 2px 8px crimson;
+}
+
+footer{
+	text-align:center;
+	font-weight:none;
+	font-size:25px;
+	color:white;
+	background-color:crimson;}
